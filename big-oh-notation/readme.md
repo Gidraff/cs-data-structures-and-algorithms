@@ -2,7 +2,7 @@
 
 In this chapter I learnt the fundamentals of algorithms and data structures.
 
-I learnt that an algorithm is a _step-by-step_ recipe for performing certain task. For example, an algorithm of calculating two numbers:
+I learnt that an algorithm is a _step-by-step_ recipe for performing certain task. For example, an algorithm for calculating two numbers:
 
 ```
 function sum(a, b) {
@@ -12,11 +12,11 @@ function sum(a, b) {
 
 A good algorithm is correct, and easy to maintain. Not forgetting that an algorithm has to be efficient, that is, it has to consider time and space used in solving a problem.
 
-Data structures come in hany when solving problem as they help you arrange data, and thus making solving a particular problem easier.
+Data structures come in handy when solving problem as they help you arrange data, and thus making solving a particular problem easier.
 
 We can analyze the efficiency of an algorithm using Big O notations and also asking the following questions:
 
-- Whats's that runtime (time complexity)?
+- What's that runtime (time complexity)?
 - What's the space complexity?
 - What's the performance under different circumstances?
   - Worst case
@@ -25,7 +25,7 @@ We can analyze the efficiency of an algorithm using Big O notations and also ask
 
 #### Big O Notation:
 
-Uses a _function_ `f(n)`, where n is the input size, to describe how the algorithms's worst case performance relates to the problem size as the size grow.
+Uses a _function_ `f(n)`, where n is the input size, to describe how the algorithm's worst case performance relates to the problem size as the size grow.
 
 `Rule of Big O Notation:`
 
