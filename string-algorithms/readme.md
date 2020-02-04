@@ -19,3 +19,10 @@ We can use Regex object functions to match patterns in a string. Regex Object pr
 
 - `search()` : Test for matches in a string, and returns the match
 - `match()` : Test for matches , and returns all the matches
+
+#### Common Regex Patterns
+
+- `/\d+/` : Any numeric characters.
+- `/^\d+$/` : Only numeric characters.
+- /^[0-9]*.[0-9]*[1-9]+$/ : Float numeric characters.
+- /[a-zA-Z0-9]/: Only alphanumeric characters.

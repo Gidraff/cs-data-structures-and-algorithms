@@ -40,10 +40,14 @@ function allPrimesLessThanN(n) {
 }
 
 // time complexity is `O(n)`
+
 isPrime(7)
 
 // time complexity is `O(sqrt(n))`
+const a1 = Performance.now()
 console.log(isPrimeB(11))
+const a2 = Performance.now()
 
+console.log(`Time taken: ${a2 - a1 }`)
 // time complexity `O(nsqrt(n))`
 console.log(allPrimesLessThanN(15))
